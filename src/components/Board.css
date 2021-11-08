@@ -1,0 +1,32 @@
+.Board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .winMessage {
+    width: 400px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .blueSign {
+    background: -webkit-linear-gradient(rgb(36, 213, 247), rgb(111, 36, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .redSign {
+    background: -webkit-linear-gradient(rgb(255, 175, 179), rgb(255, 61, 157));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .reset-btn {
+    width: 130px;
+    color: white;
+    background-image: linear-gradient(rgb(70, 104, 255), rgb(61, 253, 227));
+  }

@@ -1,0 +1,22 @@
+.card {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 13px;
+    height: 110px;
+    width: 110px;
+    box-shadow: 3px 6px 18px rgb(228, 228, 228);
+    border: rgb(238, 238, 238);
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    color: skyblue;
+  }
+  
+  .blueSign {
+    font-weight: 200;
+  }
+  
+  .redSign {
+    font-weight: 200;
+  }
+  
